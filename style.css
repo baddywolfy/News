@@ -175,6 +175,13 @@ section.middle {
     background-color: #696969;
 }
 
+.slider {
+    width: 570px;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
 .main-grid {
     display: flex;
     justify-content: space-between;

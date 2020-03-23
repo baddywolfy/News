@@ -6,6 +6,7 @@
     <title>Новостной сайт</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -76,8 +77,9 @@
                 <main class="main">
                     <div class="popular-news">
                         <div class="popular-news__left-blocks">
-                            <div class="row-1">
-                                <a href="#" class="item-content">
+                            <div class="row-1 slider">
+                                <div class="swiper-wrapper">
+                                <a href="#" class="item-content swiper-slide">
                                     <img src="assets/img/italy.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
                                     <div class="inner-content">
                                         <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
@@ -94,6 +96,41 @@
                                     </div>
                                     <span class="thumb-category-label">Здоровье</span>
                                 </a>
+                                <a href="#" class="item-content swiper-slide">
+                                    <img src="assets/img/trump.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
+                                    <div class="inner-content">
+                                        <h2>Трамп сделал заявление о COVID-19</h2>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="thumb-category-label">Здоровье</span>
+                                </a>
+                                <a href="#" class="item-content swiper-slide">
+                                    <img src="assets/img/stadium.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
+                                    <div class="inner-content">
+                                        <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="thumb-category-label">Здоровье</span>
+                                </a>
+                            </div>
                             </div>
                             <div class="row-2">
                                 <a href="#"  class="item-content">
@@ -561,4 +598,8 @@
             </div>
         </div>
     </footer>
+    
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
