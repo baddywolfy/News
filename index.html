@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новостной сайт</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="top">
+                <a href="#" class="logo">
+                    <h1>Новости</h1>
+                </a>
+                <div class="secondary-navbar">
+                    <ul>
+                        <li><a href="" class="nav-links">Войти</a></li>
+                        <li><a href="" class="nav-links">Карта сайта</a></li>
+                        <li><a href="" class="nav-links">Помощь</a></li>
+                        <li><a href="" class="nav-links">faqs</a></li>
+                        <li class="socials">
+                            <a href="" class="social-link">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="social-link">
+                                <i class="fas fa-rss"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="search-box">
+                        <form action="">
+                            <label for="search-news" class="visible-hidden">Search</label>
+                            <input type="text" id="search-news" name="search-news" placeholder="Искать..." required>
+                            <button value="search" class="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="main-nav">
+                <li class="main_nav-links active">
+                    <a href="" class="main_nav-link">главная</a>
+                </li>
+                <li class="main_nav-links">
+                    <a href="" class="main_nav-link">новости</a>
+                </li>
+                <li class="main_nav-links">
+                    <a href="" class="main_nav-link">видео</a>
+                </li>
+                <li class="main_nav-links">
+                    <a href="" class="main_nav-link">погода</a>
+                </li>
+                <li class="main_nav-links">
+                    <a href="" class="main_nav-link">контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="middle">
+        <div class="container">
+            <div class="main-grid">
+                <main class="main">
+                    <div class="popular-news">
+                        <div class="popular-news__left-blocks">
+                            <div class="row-1">
+                                <div class="item-content">
+                                    <img src="assets/img/italy.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
+                                    <div class="inner-content">
+                                        <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="thumb-category-label">Здоровье</span>
+                                </div>
+                            </div>
+                            <div class="row-2">
+                                <div class="item-content">
+                                    <img src="assets/img/food.jpg" alt="Власти Италии из-за коронавируса закрыли все предприятия страны, кроме самых необходимых">
+                                    <div class="inner-content">
+                                        <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i>  0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="thumb-category-label">Еда</span>
+                                </div>  
+                                <div class="item-content">
+                                    <img src="assets/img/stadium.jpg" alt="Власти Италии из-за коронавируса закрыли все предприятия страны, кроме самых необходимых">
+                                    <div class="inner-content">
+                                        <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="thumb-category-label">Спорт</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                        <div class="popular-news__right-blocks">
+                            <div class="popular-title">
+                                <h3>
+                                    Популярное
+                                </h3>
+                            </div>
+                            <ul class="popular-news__list">
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="popular-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о <br> COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="popular-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о <br> COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="popular-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о <br> COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="popular-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о <br> COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="popular-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о <br> COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="latest-news">
+                        <div class="latest-news__right-blocks">
+                            <div class="popular-title">
+                                <h3>
+                                    Последние Новости
+                                </h3>
+                            </div>
+                            <ul class="latest-news__list">
+                                <li class="latest-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="latest-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="latest-news__item-link">
+                                            Трамп сделал заявление о COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="latest-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="latest-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="latest-news__item-link">
+                                            Трамп сделал заявление о COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="latest-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="latest-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="popular-news__item-link">
+                                            Трамп сделал заявление о COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="popular-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="latest-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="latest-news__item-link">
+                                            Трамп сделал заявление о COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="latest-news__list-item">
+                                    <div class="img-box__link">
+                                        <a href="">
+                                         <img src="assets/img/trump.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="latest-news__news-text">
+                                        <span class="category-label">Здоровье</span>
+                                        <a href="" class="latest-news__item-link">
+                                            Трамп сделал заявление о COVID-19
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-time">
+                                                <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                            </div>
+                                            <div class="item-comments">
+                                                <span class="item-comments__number">
+                                                    <i class="fas fa-comment"></i> 0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+
+
+
+
+                <aside class="aside">
+                    <div class="item-content">
+                        <img src="assets/img/italy.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
+                        <div class="inner-content">
+                            <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                            <div class="item-info">
+                                <div class="item-time">
+                                    <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                </div>
+                                <div class="item-comments">
+                                    <span class="item-comments__number">
+                                        <i class="fas fa-comment"></i> 0
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="thumb-category-label">Здоровье</span>
+                    </div>
+                    <div class="item-content">
+                        <img src="assets/img/italy.jpg" alt="Количество зараженных в Италии продолжает увеличиваться">
+                        <div class="inner-content">
+                            <h2>Количество зараженных в Италии продолжает увеличиваться</h2>
+                            <div class="item-info">
+                                <div class="item-time">
+                                    <time datetime="2020-03-23"><i class="far fa-clock"></i> 23 Март 2020</time>
+                                </div>
+                                <div class="item-comments">
+                                    <span class="item-comments__number">
+                                        <i class="fas fa-comment"></i> 0
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="thumb-category-label">Здоровье</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+</html>
